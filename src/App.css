@@ -1,6 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./img/9c3f46165c04a8dd6ae39c7e51702f63.jpg'); /* Reemplaza con tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* Color de texto principal */
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para la barra de navegación */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh; /* Ajusta según sea necesario */
+}
+
+.card {
+  margin-left: auto; /* Mueve el CardWidget al lado derecho */
+}
+
+.card-body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
